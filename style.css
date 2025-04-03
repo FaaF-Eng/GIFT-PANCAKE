@@ -27,10 +27,19 @@ html,body{
     transform: translate(-50%, -50%);
     padding: 20px;
   }
-  .lauracat{
-    width: 150px;
-    position: fixed;
-    bottom: 0%; /* Ajuste esse valor para descer mais */
-    left: 40%;
-    padding: 0px;
-  }
+.lauracat{
+width: 150px;
+position: fixed;
+bottom: 0%; /* Ajuste esse valor para descer mais */
+left: 40%;
+padding: 0px;
+}
+
+.fabiocat{
+width: 150px;
+position: fixed;
+bottom: 0%; /* Ajuste esse valor para descer mais */
+left: 50%;
+padding: 0px;
+
+}
