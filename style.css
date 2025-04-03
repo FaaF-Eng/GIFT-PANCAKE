@@ -33,6 +33,7 @@ position: fixed;
 bottom: 0%; /* Ajuste esse valor para descer mais */
 left: 40%;
 padding: 0px;
+animation: pulando 1.5s infinite;
 }
 
 .fabiocat{
@@ -41,5 +42,18 @@ position: fixed;
 bottom: 0%; /* Ajuste esse valor para descer mais */
 left: 50%;
 padding: 0px;
+animation: pulando 1s infinite;
+}
 
+
+@keyframes pulando { /*Animação do coração*/
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-10px);
+  }
+  100%{
+      transform: translateY(0);
+  }
 }
